@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.dark{
+    background: #1b1b1b
+}
+header{
+    background: #282527;
+    position: sticky
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px  ;
+  
+    
+         
+}
+nav a.brand{
+    color: #003e53;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 10px;
+    color: #fff
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+    margin: 0px 0px 0px 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #b9b1b6;
+    font-weight: 630;
+    text-transform: uppercase;
+    font-family: sans-serif
+}
+nav ul li a.home{
+    color: #e19dcb;
+}
+nav ul li a:hover{
+    color: #e19dcb
+}
+
+
+/*sections*/
+.hero{
+    padding: 60px;
+    margin: 0px 20px;
+    
+}
+.hero .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+.hero .container .left-pannel{
+    margin: 120px;
+}
+.left-pannel .header h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #363f87;
+    padding: 0px 0px 10px 0px
+}
+
+.left-pannel .header p{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 630;
+    color: #868686;
+    padding: 0px 0px 15px;
+}
+.left-pannel .btn{
+    padding: 8px 0px 0px 0px;
+}
+.left-pannel .btn button{
+    margin-right:  30px
+}
+.left-pannel .btn button.download{
+    width: 90px;
+    padding: 5px 4px 5px 4px ;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #303d9c;
+    font-size: 18px;
+    font-weight: 640;
+    cursor: pointer;
+    transition: 0.6s ease-in-out
+}
+.left-pannel .btn button.download.wh{
+    color: #fff;
+}
+.left-pannel .btn button.github{
+    width: 90px;
+    padding: 5px 4px 5px 4px ;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #303d9c;
+    font-size: 18px;
+    font-weight: 640;
+    cursor: pointer;
+    background: #282f62;
+    color: #fff;
+    transition: 0.6s ease-in-out
+}
+.left-pannel .btn button:hover{
+    background: #282f62;
+    color: #fff
+}
+.left-pannel .btn button.github:hover{
+    opacity: 0.5
+}
+
+
+.right-pannel .hero-img img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: auto;
+    border-bottom: 1px solid #003e53;
+}
+
+/*contact*/
+
+.contact{
+    padding: 20px;
+    margin: 20px 30px 15px 30px;
+    background: #f3f4f7;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px
+    
+   
+}
+.contact .sub-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
+
+.sub-container .left-coner{
+    padding: 50px;
+    
+    background: #fff;
+    border-radius: 20px
+    
+}
+.left-coner .text-header{
+    padding: 0px 0px 20px 0px
+}
+.text-header h2{
+    font-size: 30px;
+    color: #5c65b2;
+    font-weight: 670;
+    font-family: sans-serif
+}
+
+.text-header p{
+    font-family: cursive;
+    font-weight: 630;
+    color: #858585;
+}
+.form-group{
+    padding: 0px 0px 15px 0px;
+}
+.form-group label, .form-group-2 label{
+    display: block;
+    font-size: 18px;
+    padding: 0px 0px 5px 0px;
+    font-weight: 640;
+    font-family: sans-serif;
+    color: #5c65b2
+}
+
+.form-group input, .form-group-2 input{
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #003e53;
+    outline: none;
+    font-size: 18px
+}
+
+.message{
+    padding: 15px 5px 5px 5px 
+}
+.message textarea{
+    padding: 10px;
+    border: 1px solid #003e53;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+}
+.btns-contact{
+    padding: 15px 5px 5px 5px;
+    
+}
+.btns-contact button{
+    width: 120px;
+    padding: 10px;
+    background: #003e53;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    opacity: 0.9
+}
+
+/*righ corner*/
+.right-coner{
+    margin-left: 100px;
+    padding-left: 30px;
+
+}
+.right-coner .contact-info{
+    padding: 0px 0px 15px 0px;
+}
+.contact-info h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 670;
+    color: #5c65b2;
+}
+
+.call-us h3{
+    padding: 0px 0px 18px 0px;
+    font-size: 19px;
+    font-family: serif;
+    font-weight: 620;
+    color: #656565;
+}
+.social-links h2{
+    padding: 0px 0px 15px 0px;
+    font-size: 28px;
+    color: #189;
+    font-weight: 700;
+}
+.social-links ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #5c65b2;
+    opacity: 0.7
+}
+
+.right-coner .dark-mode{
+    padding: 20px 0px
+}
+
+.right-coner .dark-mode input{
+    width: 20px;
+    height: 20px
+}
+
+/*foooter*/
+.footer{
+    margin-top: 100px;
+    background: #4955c5;
+    padding: 20px
+}
+.footer .copy{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
+.copy .copyright{
+    padding: 15px 30px 10px 30px;
+}
+
+.copy .copyright h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 650;
+    font-family: sans-serif;
+    word-spacing: 2px
+}
+
+.prev-links .prev-header{
+    padding: 0px 10px 5px 0px;
+}
+.prev-links .prev-header h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff
+}
+.prev-links .lists{
+    padding-top: 5px
+}
+.prev-links .lists ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    font-size: 18px;
+    font-family: verdana;
+    color: #c2c4d0
+}
